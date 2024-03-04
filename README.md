@@ -1,10 +1,10 @@
 
 
 # [DER]()
-<a href="enlace/a/la/imagen.jpg" target="_blank"><img src="https://github.com/Horacio1991/SQL_Coderhouse/blob/main/DER%20Coder.jpg" alt="DER"></a>
+<a href="https://github.com/Horacio1991/SQL_Coderhouse/blob/main/DER%20Coder.jpg" target="_blank"></a>
 
-#[SCRIPT]()
-<a href="https://github.com/Horacio1991/SQL_Coderhouse/blob/main/PrimerEntrega.sql" target="_blank"><src="SCRIPT" alt="SQL"></a>
+[SCRIPT](https://github.com/Horacio1991/SQL_Coderhouse/blob/main/PrimerEntrega.sql)
+
 
 # ENVIOS CODER
 
