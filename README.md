@@ -1,7 +1,7 @@
 
 
-# [DER]()
-<a href="DER Coder.jpg" target="_blank"></a>
+# [DER](https://github.com/Horacio1991/SQL_Coderhouse/blob/main/DER%20Coder.jpg)
+
 
 # [SCRIPT](https://github.com/Horacio1991/SQL_Coderhouse/blob/main/PrimerEntrega.sql)
 
