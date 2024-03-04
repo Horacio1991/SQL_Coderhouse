@@ -1,6 +1,8 @@
 # DER
 
-[![DER](https://github.com/Horacio1991/SQL_Coderhouse/blob/main/DER%20Coder.jpg)](https://github.com/Horacio1991/SQL_Coderhouse/blob/main/DER%20Coder.jpg)
+# [DER](https://github.com/Horacio1991/SQL_Coderhouse/blob/main/DER%20Coder.jpg)
+<a href="enlace/a/la/imagen.jpg" target="_blank"><img src="https://github.com/Horacio1991/SQL_Coderhouse/blob/main/DER%20Coder.jpg" alt="DER"></a>
+
 
 # ENVIOS CODER
 
