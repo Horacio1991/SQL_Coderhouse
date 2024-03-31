@@ -83,3 +83,31 @@ Es una aplicación diseñada para facilitar y optimizar el proceso de envío y e
   - `DESCRIPCION`: Descripción detallada del producto.
   - `PESO`: Peso del producto (decimal con precisión de 10,2).
   - `PRECIO`: Precio del producto (decimal con precisión de 10,2).
+ 
+### Vista: vista_paquetes_por_cliente
+Esta vista muestra información detallada sobre los paquetes enviados por cliente, incluyendo el código del cliente, nombre, apellido, código del paquete, fecha de envío, estado del paquete, así como los productos asociados a cada paquete con su nombre, descripción, peso y precio.
+
+### Vista: vista_empleados_por_sucursal
+Esta vista proporciona información sobre los empleados asignados a cada sucursal, mostrando el código de la sucursal, dirección, así como el código, nombre, apellido, domicilio y teléfonos de cada empleado.
+
+### Vista: vista_envios_por_fecha
+Esta vista muestra los detalles de los envíos realizados dentro de un rango de fechas específico. Incluye el código del paquete, fecha de envío, código del cliente y empleado, nombre y apellido del cliente y empleado, así como información detallada sobre los productos enviados, como nombre, descripción, peso y precio.
+
+### Función: calcular_total_envios_por_cliente
+Esta función calcula el total de envíos realizados por un cliente específico. Recibe como parámetro el código del cliente y devuelve el número total de envíos realizados por ese cliente.
+
+### Función: obtener_productos_por_paquete
+Esta función devuelve una lista de productos asociados a un paquete específico. Toma como entrada el código del paquete y devuelve una cadena de caracteres que enumera los nombres de los productos separados por comas.
+
+### Función: calcular_peso_total_paquete
+Esta función calcula el peso total de un paquete específico. Recibe como parámetro el código del paquete y devuelve una cadena de caracteres que representa el peso total seguido de las unidades "KG".
+
+### Procedimiento almacenado: sp_actualizar_estado_paquete
+Este procedimiento almacenado actualiza el estado de un paquete específico. Toma como entrada el código del paquete y el nuevo estado y actualiza el estado del paquete en la tabla correspondiente.
+
+### Procedimiento almacenado: sp_obtener_envios_por_fecha
+Este procedimiento almacenado devuelve detalles sobre los envíos realizados dentro de un rango de fechas específico. Toma como parámetros las fechas de inicio y fin y devuelve información detallada sobre los paquetes enviados dentro de ese período.
+
+### Trigger: tr_estado_paquete
+Este trigger se activa después de actualizar el estado de un paquete y registra el cambio en una tabla de registro. Registra el código del paquete, la fecha del cambio, el estado anterior y el estado actual del paquete en la tabla `LOG_CAMBIOS_PAQUETE`.
+
