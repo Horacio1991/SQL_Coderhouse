@@ -3,7 +3,8 @@
 # [DER](https://github.com/Horacio1991/SQL_Coderhouse/blob/main/DER%20Coder.jpg)
 
 
-# [SCRIPT](https://github.com/Horacio1991/SQL_Coderhouse/blob/main/PrimerEntrega.sql)
+# [SCRIPT](https://github.com/Horacio1991/SQL_Coderhouse/blob/main/SegundaEntrega.sql)
+
 
 
 # ENVIOS CODER
